@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            }
+        ul:after{
+            content:'';
+            display: block;
+            clear:both;
+        }
+        li {
+            float: left;
+            }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+        li a:hover:not(.active) {
+            background-color: #111;
+            }
+        .active {
+            background-color: #4CAF50;
+            }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">팀명:</h1><h2 style="text-align: center;">BackBone(미정)</h2>
+    <ul class = "myMenu">
+        <li class = "menu1"><a class = "active" href="#home">Home</a></li>
+        <li class = "menu3"><a href = "#plan">기획서</a></li>
+        <li class = "menu2"><a href = "#Team_content">팀원</a></li>
+        <li class = "menu4"><a href = "#result">예상결과물</a></li>
+    </ul>
+</body>
+</html>
